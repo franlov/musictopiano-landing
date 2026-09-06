@@ -341,15 +341,13 @@
 <section id="start">
   <div class="wrap">
     <div class="wait">
-      <p class="kicker" data-i18n="wKicker">Waitlist</p>
-      <h2 data-i18n="wTitle">Be among the first to play it</h2>
-      <p class="lead" data-i18n="wLead">We're opening spots on a first-come basis. Leave your email and we'll write the moment yours is ready.</p>
-      <form onsubmit="event.preventDefault(); this.style.display='none'; document.getElementById('done').style.display='block';">
-        <input type="email" required placeholder="you@email.com" aria-label="Your email" data-i18n-ph="wEmail" />
-        <button type="submit" data-i18n="wBtn">Join the list</button>
-      </form>
-      <p class="done" id="done" data-i18n="wDone">You're in! We'll be in touch very soon ♫</p>
-      <p class="fine" data-i18n="wFine">No spam. One email when your spot opens — nothing else.</p>
+      <p class="kicker" data-i18n="wKicker">Start free today</p>
+      <h2 data-i18n="wTitle">Your first songs are on us</h2>
+      <p class="lead" data-i18n="wLead">Create a free account and get <b style="color:#1b2020">3 song credits</b>: upload any song, play the score and re-arrange it in any style. No card needed.</p>
+      <p style="margin:26px auto 0;max-width:460px;position:relative">
+        <a href="https://musictopiano.com/login" class="btn primary" style="justify-content:center;width:100%;background:#1b2020;box-shadow:none">Create free account</a>
+      </p>
+      <p class="fine" data-i18n="wFine">3 full songs included · PDF, MIDI &amp; MusicXML · works on mobile</p>
     </div>
   </div>
 </section>
@@ -404,10 +402,10 @@ const I18N = {
     q4:"¿Puedo usar las partituras que genero?", a4:"Sí, para estudio y uso personal, igual que transcribir de oído. MusicToPiano es una herramienta de estudio: tu audio y tu partitura son tuyos.",
     q5:"¿Qué recibo exactamente al descargar?", a5:"Un PDF listo para imprimir (con fecha de generación y ajustes usados), un MIDI fiel al tempo original y MusicXML para MuseScore, Sibelius o Finale.",
     q6:"¿Necesito instalar algo?", a6:"No. Todo funciona en el navegador, también en el móvil. Subes, escuchas, tocas y descargas.",
-    wKicker:"Lista de espera", wTitle:"Sé de los primeros en tocarla",
-    wLead:"Abrimos plazas por orden de llegada. Deja tu correo y te avisamos en cuanto se libere la tuya.",
+    wKicker:"Empieza gratis hoy", wTitle:"Tus primeras canciones van por nuestra cuenta",
+    wLead:"Crea una cuenta gratuita y llévate <b style='color:#1b2020'>3 créditos de canción</b>: sube cualquier canción, toca la partitura y re-arréglala en cualquier estilo. Sin tarjeta.",
     wEmail:"tu@correo.com", wBtn:"Unirme a la lista",
-    wDone:"¡Apuntado! Te avisaremos muy pronto ♫", wFine:"Sin spam. Un correo cuando abra tu plaza y nada más.",
+    wFine:"3 canciones completas · PDF, MIDI y MusicXML · funciona en el móvil",
     footTag:"Hecho para pianistas que quieren tocar SU canción"
   }
 };
